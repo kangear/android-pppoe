@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:icon="@drawable/ic_launcher"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textMT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#0F0E0F"
+	    android:textColor="#F0F0F0"/>
+    <ImageView
+        android:contentDescription="@string/nulltext"
+        android:id="@+id/imageView_tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMT"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_title" />
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView_tl"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/eduser"
+        android:singleLine="true" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#400000"
+        android:paddingLeft="10dp"
+        android:background="@drawable/ed_nomal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textE"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/edit_username"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+        
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textE"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/edpwd"
+        android:inputType="textPassword"
+        android:singleLine="true" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#400000"
+        android:paddingLeft="10dp"
+        android:background="@drawable/ed_nomal" />
+
+    <CheckBox
+        android:id="@+id/check_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_password"
+        android:layout_centerHorizontal="true"
+        android:text="@string/check_school"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#400000" />
+
+    <CheckBox
+        android:id="@+id/check_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check_school"
+        android:layout_centerHorizontal="true"
+        android:text="@string/check_remember"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#400000" />
+
+    <Button
+        android:id="@+id/btn_Connect"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/edit_password"
+        android:layout_below="@+id/check_remember"
+        android:text="@string/btn_Connect"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#400000"
+        android:background="@drawable/button_normal" />
+
+    <Button
+        android:id="@+id/btn_Stop"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/edit_password"
+        android:layout_below="@+id/check_remember"
+        android:text="@string/btn_Stop"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#400000"
+        android:background="@drawable/button_normal" />
+    
+	<TextView
+        android:id="@+id/textL"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_alignLeft="@+id/btn_Connect"
+        android:layout_alignRight="@+id/btn_Stop"
+        android:layout_below="@+id/btn_Stop"
+        android:text="" />
+
+	<Button
+	    android:id="@+id/btn_State"
+	    android:layout_width="145dp"
+	    android:layout_height="40dp"
+	    android:layout_alignLeft="@+id/edit_password"
+	    android:layout_below="@+id/textL"
+	    android:text="@string/btn_State" 
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#400000"
+        android:background="@drawable/button_normal" />
+
+	<Button
+	    android:id="@+id/btn_Set"
+	    android:layout_width="145dp"
+	    android:layout_height="40dp"
+	    android:layout_alignRight="@+id/edit_password"
+	    android:layout_below="@+id/textL"
+	    android:text="@string/btn_Set" 
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#400000"
+        android:background="@drawable/button_normal" />
+    
+</RelativeLayout>

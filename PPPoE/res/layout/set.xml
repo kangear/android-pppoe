@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_eth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_eth"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/textView_eth"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Spinner
+	    android:id="@+id/spinner_eth"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignRight="@+id/spinner_ghca"
+	    android:gravity="center_vertical"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+    <CheckBox
+        android:id="@+id/check_school"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_eth"
+        android:text="@string/check_school"
+        android:textSize="20dp"
+        android:gravity="center_vertical" />
+    
+    <Spinner
+        android:id="@+id/spinner_ghca"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner_eth"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+    <CheckBox
+        android:id="@+id/check_static_dns"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/check_school"
+        android:text="@string/check_static_dns"
+        android:textSize="20dp"
+        android:gravity="center_vertical" />
+
+    <ListView
+        android:id="@+id/list_dns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/check_static_dns"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="vertical" />
+    
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PPPoE数字拨号器-校园版</string>
+	<string name="pppoe">网络状态</string>
+	<string name="eduser">账号：</string>
+	<string name="edpwd">密码：</string>
+	<string name="help">帮助</string>
+	<string name="ip">IP：</string>
+	<string name="gateway">网关：</string>
+	<string name="netmask">子网掩码：</string>
+	<string name="dns1">DNS1：</string>
+	<string name="dns2">DNS2：</string>
+	<string name="set">设置</string>
+	<string-array name="all_eth">
+	    <item>使用网卡1(无线网卡)</item>
+	    <item>使用网卡2(有线网卡)</item>
+    </string-array>
+	<string-array name="ghca">
+	    <item>1.XX版</item>
+	    <item>2.01版</item>
+        <item>2.02版</item>
+        <item>2.05版</item>
+        <item>2.07版</item>
+        <item>2.08版</item>
+    </string-array>
+	<string name="check_school">电信协同通信拨号</string>
+	<string name="check_remember">保存账号以及密码</string>
+	<string name="btn_Connect">连接网络</string>
+	<string name="btn_Stop">断开网络</string>
+	<string name="btn_State">连接状态</string>
+	<string name="btn_Set">拨号设置</string>
+	<string name="nulltext">null</string>
+	<string name="textHT">网络状态</string>
+	<string name="textView_eth">首选网卡：</string>
+	<string name="check_static_dns">自定义域名服务器</string>
+</resources>

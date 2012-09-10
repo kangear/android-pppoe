@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/layout/help.xml
+SHA1-Digest: CZSV3KPGDUg+7Ca43k4QHSP07zg=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: el8krU+UMeHB/Y3jz+Lz/u0yBZ4=
+
+Name: res/drawable-ldpi/button_normal.png
+SHA1-Digest: OlWiRrTqcaLilrtxBrK7n8Ce4iM=
+
+Name: res/drawable-ldpi/bg.jpg
+SHA1-Digest: Xh0Vp8ZmDZZF/qtlbfdY5VizMqI=
+
+Name: resources.arsc
+SHA1-Digest: 4Rgrv5o8DP+j1Q8aRM7R3TgjkqY=
+
+Name: classes.dex
+SHA1-Digest: DKe6JIt/doundQuMJ2BpwTl2Rb4=
+
+Name: res/drawable-ldpi/ic_title.png
+SHA1-Digest: RX3/Qiau5h48thJ0dL2EZqq8Yp8=
+
+Name: res/drawable-ldpi/ed_nomal.png
+SHA1-Digest: 7ge0j8h7wk1uAfYb6NwU0le4yXQ=
+
+Name: res/layout/item.xml
+SHA1-Digest: G2q2swLxqQkurFX7BpgAW30xsSE=
+
+Name: res/drawable-ldpi/ic_help.png
+SHA1-Digest: NinXShDxtwhmXw9FjcK6vDwO1uw=
+
+Name: assets/help.htm
+SHA1-Digest: t4HQtKVR5NOmDDsK6Bjguo4fxVQ=
+
+Name: lib/armeabi/libencrypt.so
+SHA1-Digest: rEjXk6k6dFSDw6j1zOyE//lqjvU=
+
+Name: res/layout/main.xml
+SHA1-Digest: wStSAgjcFvBne4PAUyK/RaRg1Rs=
+
+Name: res/drawable-ldpi/button_pressed.png
+SHA1-Digest: NXCMujkoZBHVfCVFASflG99PJ/E=
+
+Name: AndroidManifest.xml
+SHA1-Digest: bsVXhLN74f9/1z7k8IvQTpFLv8s=
+
+Name: res/layout/set.xml
+SHA1-Digest: ooLeZKQkbZlJ2Jed4+iyx3gmjMU=
+
+Name: lib/armeabi/libpppoe.so
+SHA1-Digest: 6XztSlC2pOkIZ8S/KbWjmnx1oKY=
+
+Name: lib/armeabi/libencrypt-jni.so
+SHA1-Digest: JkljMCjTwWQTMXHibusWoaG4fk0=
+
+Name: res/layout/pppoe.xml
+SHA1-Digest: xEe6ESEUkpDHG0NOpPyyoetxTAI=
+
+Name: res/drawable-mdpi/ic_title.png
+SHA1-Digest: BVfggqul9URkBrNDPYWpgoWyHN4=
+
+Name: lib/armeabi/libpppd.so
+SHA1-Digest: HP0dzBEHV+fUP0J9tMTRIym+700=
+
+Name: res/drawable-ldpi/ic_state.png
+SHA1-Digest: F+ljWzY4vCBs3IsbFZagJ8+YUDw=
+
+Name: res/drawable-ldpi/ic_return.png
+SHA1-Digest: 5LqrUSDKwlDxszONfviW7N9hLIw=
+
+Name: res/drawable-hdpi/ic_title.png
+SHA1-Digest: BVfggqul9URkBrNDPYWpgoWyHN4=
+

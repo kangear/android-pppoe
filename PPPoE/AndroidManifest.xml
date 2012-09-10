@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pppoe.school"
+    android:versionCode="2"
+    android:versionName="1.6" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity           
+            android:name="pppoe.school.ActivityMain" 
+            android:label="@string/app_name"        
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+        	android:name="pppoe.school.ActivityPPPoE" 
+            android:label="@string/pppoe"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+        	android:name="pppoe.school.ActivitySet" 
+            android:label="@string/set"
+            android:screenOrientation="portrait">
+        </activity>        
+        <activity
+        	android:name="pppoe.school.ActivityHelp" 
+            android:label="@string/help"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission> 
+	<uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES"></uses-permission> 
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission> 
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission> 
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission> 
+	<uses-permission android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_APN_SETTINGS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+</manifest>
